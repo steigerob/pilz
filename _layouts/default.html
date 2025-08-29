@@ -6,8 +6,21 @@
   <meta name="keywords" content="{{ page.keywords | default: site.keywords }}">
   <meta name="description" content="{{ page.description | default: site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <link rel="icon" href="{{ '/files/images/favicon.ico' | relative_url }}">
-  <link rel="shortcut icon" href="{{ '/files/images/favicon.ico' | relative_url }}">
+  
+
+  <link rel="icon" type="image/png" href="{{ '/files/images/favicon/favicon-96x96.png' | relative_url }}" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="{{ '/files/images/favicon/favicon.svg' | relative_url }}" />
+  <link rel="shortcut icon" href="{{ '/files/images/favicon/favicon.ico' | relative_url }}" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/files/images/favicon/apple-touch-icon.png' | relative_url }}" />
+  <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+  <link rel="manifest" href="{{ '/files/images/favicon/site.webmanifest' | relative_url }}" />
+
+
+
+
+
+  <!-- <link rel="icon" href="{{ '/files/images/favicon.ico' | relative_url }}"> -->
+  <!-- <link rel="shortcut icon" href="{{ '/files/images/favicon.ico' | relative_url }}"> -->
 
   <!-- Main CSS Files -->
   <link rel="stylesheet" href="{{ '/style/css/style.css' | relative_url }}">

@@ -11,3 +11,5 @@ vendor/
 *.log
 *.tmp
 
+# Ignore my notes
+_notes/

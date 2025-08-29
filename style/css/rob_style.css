@@ -24,7 +24,7 @@
 
 /* Optional: Change link text color for better contrast */
 #pricing .misc-block-content ul li a {
-  color: #111;
+  color: #fff;
   transition: color 0.3s ease;
 }
 
