@@ -1,10 +1,8 @@
 title: RobPage
 description: ""
 keywords: ""
-# If hosting on GitHub Pages user site, leave baseurl empty. For project pages, set to "/repo-name".
-baseurl: ""
-# Set your production URL, e.g., "https://username.github.io"
-url: ""
+url: "https://steigerob.github.io"
+baseurl: "/pilz"
 plugins:
   - jekyll-feed
 exclude:
