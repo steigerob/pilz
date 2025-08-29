@@ -1,0 +1,13 @@
+# Ignore the Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ignore local dependency installs
+vendor/
+
+# Ignore log files and temp files
+*.log
+*.tmp
+
