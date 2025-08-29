@@ -117,7 +117,12 @@ a:hover, #header.nav-solid nav a:hover {
     background-size:cover;
 } */
 
-
+#banner {
+    background: url("../../files/images/banner-images/soldier.gif") no-repeat center center;
+    background-size: cover;
+    height: 80vh;   /* full viewport height */
+    width: 80vw;    /* full viewport width */
+}
 
 /* new */
 /* #banner {
@@ -127,12 +132,12 @@ a:hover, #header.nav-solid nav a:hover {
 } */
 
 /* Filter on top of banner */
-#banner::before {
+/* #banner::before {
     content: "";
     position: absolute;
     inset: 0; 
     background-color: rgba(255, 255, 255, 0.5); 
-}
+} */
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
