@@ -117,12 +117,12 @@ a:hover, #header.nav-solid nav a:hover {
     background-size:cover;
 } */
 
-#banner {
+/* #banner {
     background: url("../../files/images/banner-images/soldier.gif") no-repeat center center;
-    background-size: cover;
-    height: 80vh;   /* full viewport height */
-    width: 80vw;    /* full viewport width */
-}
+    background-size: contain;
+    height: 60vh;   
+    width: 60vw;   
+} */
 
 /* new */
 /* #banner {
