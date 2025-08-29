@@ -1,5 +1,4 @@
 name: Build and deploy Jekyll to GitHub Pages
-
 on:
   push:
     branches: [ "main" ]
@@ -26,8 +25,7 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
       - name: Install dependencies
-        run: |
-          bundle install
+        run: bundle install
       - name: Build site
         run: bundle exec jekyll build --trace
       - name: Upload artifact
@@ -44,4 +42,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
